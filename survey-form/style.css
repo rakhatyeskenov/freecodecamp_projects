@@ -1,0 +1,189 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #f3f3f3;
+    font-family: sans-serif;
+}
+
+
+.header {
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 2em;
+    margin-top: 40px;
+    font-size: 2.3em;
+    margin-bottom: 0px;
+}
+
+#description {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+    font-size: 1.25rem;
+    margin-top: 8px;
+    font-weight: 200;
+    color: #f3f3f3;
+}
+
+#survey-form {
+    background: rgba(27, 27, 50, 0.8);
+    /* border-radius: 0.25rem; */
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 0.25rem;
+}
+
+.form-input {
+    height: 2.7rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: inherit;
+    line-height: inherit;
+}
+.form-input:focus {
+	outline: none;
+    border: 3px solid rgb(24, 24, 172);
+}
+
+.form-part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: -5px;
+    font-size: 1.2rem;
+}
+
+.m-label-ch {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+.head-space {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.last-label {
+    font-size: 1.2rem;
+}
+
+.h2-p2 {
+    margin-bottom: 8px;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+#submit {
+    background-color: #37af65;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: inherit;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+}
+
+.title-label {
+    margin-top: 1rem;
+}
+
+.t-l {
+    font-size: 1.2rem;
+}
+
+.radio1 {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.radio-label{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.label-check input {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+@media (max-width: 1000px){
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 800px;
+    }
+     
+    .survey-form {
+        width: 450px;
+        padding: 40px;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+
+
+
