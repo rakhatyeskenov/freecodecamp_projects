@@ -3,9 +3,6 @@ Projects
 
 Watch how pages look:
 
-Tribute page:
-https://rakhatyeskenov.github.io/freecodecamp_projects/tribute-page/"
-
 Survey form:
 https://rakhatyeskenov.github.io/freecodecamp_projects/survey-form/
 
