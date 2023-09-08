@@ -19,6 +19,14 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* 
+#0b0c10 black
+#1f2833 grey black
+#c5c6c7 grey
+#66fcf1 turquoise
+#45a29e turquoise green
+*/
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.4;
@@ -39,7 +47,7 @@ a {
 
 .header {
     width: 100%;
-    background-color: #be3144;
+    background-color: #1f2833;
     height: 76px;
     color: white;
     display: flex;
@@ -75,8 +83,9 @@ a {
 
 /* welcome-section */
 #welcome-section {
-    color: white;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    color: #66fcf1;
+    background-image: linear-gradient(62deg, #1f2833 0%, #0b0c10 100%);
+    /* background-color: #0b0c10; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,15 +98,53 @@ a {
     font-size: 4em;
 }
 .main-title h2 {
-    color: #be3144;
+    color: white;
     font-size: 2em;
     font-style: italic;
     font-weight: 300;
 }
 
+.btn-portfolio {
+    font-family: 'Poppins', sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 12px;
+  min-width: 120px;
+  border-radius: 20px;
+    border-color: #66fcf1;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+     transition: background-color 100ms linear;
+     
+}
+
+.btn-portfolio:focus, .btn-portfolio.focus {
+    outline: 0;
+  }
+
+  .btn-primary {
+    font-family: 'Poppins', sans-serif;
+    background: #1f2833;
+    color: #ffffff;
+    /* border-radius: 20px;
+    border-color: #66fcf1; */
+  }
+
+  .btn-primary:hover {
+    background: #6780b8;
+    color: #ffffff;
+  }
+
+  .btn-round-2 {
+    border-radius: 20px;
+  }
+
 /* projects */
 #projects {
-    background-color: #45567d;
+    /* background-color: #45567d; */
+    background-image: linear-gradient(62deg, #1f2833 0%, #0b0c10 100%);
 }
 
 #projects {
@@ -192,7 +239,8 @@ a {
 
 .contact-area {
     color: white;
-    background-color: #303841;
+    /* background-color: #303841; */
+    background-image: linear-gradient(62deg, #1f2833 0%, #0b0c10 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
